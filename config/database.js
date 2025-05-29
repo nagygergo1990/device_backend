@@ -6,4 +6,5 @@ const sequelize = new Sequelize("device_db", "postgres", "root", {
     logging: false,
 });
 
+
 module.exports = sequelize;
